@@ -1,0 +1,117 @@
+                                                                                                                                                                                                                                                                                                             mine.html                                                                                                                                                                                                                                                                                                                       
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vanshika Jain</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      overflow:hidden;
+    }
+
+    .card{
+      background: rgba(255,255,255,0.12);
+      backdrop-filter: blur(10px);
+      padding:50px;
+      border-radius:20px;
+      text-align:center;
+      color:white;
+      width:90%;
+      max-width:500px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.2);
+      animation: fadeIn 1s ease;
+    }
+
+    .profile{
+      width:120px;
+      height:120px;
+      border-radius:50%;
+      margin:auto;
+      margin-bottom:20px;
+      background:white;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:45px;
+      color:#764ba2;
+      font-weight:bold;
+    }
+
+    h1{
+      font-size:38px;
+      margin-bottom:10px;
+    }
+
+    p{
+      font-size:18px;
+      line-height:1.6;
+      opacity:0.9;
+      margin-bottom:25px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:14px 30px;
+      border-radius:30px;
+      background:white;
+      color:#764ba2;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:scale(1.05);
+      background:#f3f3f3;
+    }
+
+    @keyframes fadeIn{
+      from{
+        opacity:0;
+        transform:translateY(30px);
+      }
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="profile">
+      VJ
+    </div>
+
+    <h1>Vanshika Jain</h1>
+
+    <p>
+      Welcome to my beautiful website deployed using
+      GitHub + Jenkins + Freestyle CI/CD Pipeline 🚀
+    </p>
+
+    <a href="https://github.com/vanshika990" class="btn">
+      Visit GitHub
+    </a>
+
+  </div>
+
+</body>
+</html>
